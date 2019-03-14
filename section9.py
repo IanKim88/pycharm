@@ -11,3 +11,6 @@ print(lists)  # [24, 35, 70, 155]
 
 
 print(">>>>", lists)  # [24, 35, 70, 155]
+
+
+print('test')
