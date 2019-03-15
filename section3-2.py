@@ -9,6 +9,7 @@ class Person:
     def __str__(self):
         return self.firstname + " " + self.lastname
 
+
 class Employee(Person):
 
     def __init__(self, first, last, staffnum):

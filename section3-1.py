@@ -9,14 +9,16 @@ class Person:
     def Name(self):
         return self.firstname + " " + self.lastname
 
+
 class Employee(Person):
 
     def __init__(self, first, last, staffnum):
-        Person.__init__(self,first, last)
+        Person.__init__(self, first, last)
         self.staffnumber = staffnum
 
     def GetEmployee(self):
-        return self.Name() + ", " +  self.staffnumber
+        return self.Name() + ", " + self.staffnumber
+
 
 x = Person("Marge", "Simpson")
 y = Employee("Homer", "Simpson", "1007")

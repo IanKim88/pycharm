@@ -9,23 +9,26 @@ class Person:
     def Name(self):
         return self.firstname + " " + self.lastname
 
+
 class Employee(Person):
 
     def __init__(self, first, last, staffnum):
-        Person.__init__(self,first, last)
+        Person.__init__(self, first, last)
         self.staffnumber = staffnum
 
     def GetEmployee(self):
-        return self.Name() + ", " +  self.staffnumber
+        return self.Name() + ", " + self.staffnumber
+
 
 class Student(Person):
 
     def __init__(self, first, last, stunum):
-        Person.__init__(self,first, last)
+        Person.__init__(self, first, last)
         self.stunum = stunum
 
     def GetStudent(self):
-        return self.Name() + ", " +  self.stunum
+        return self.Name() + ", " + self.stunum
+
 
 x = Person("Marge", "Simpson")
 y = Employee("Homer", "Simpson", "1007")

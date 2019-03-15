@@ -39,7 +39,6 @@ def function_2(input):
 
 
 # print(function_1(1))
-# print(function_2(2))
 
 Output1 = function_1(1) + function_2(2)
 Output2 = function_1(3) + function_2(4)

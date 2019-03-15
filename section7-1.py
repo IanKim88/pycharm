@@ -38,6 +38,7 @@ class Context(State):
 
 
 
+
 context = Context()
 stateA = StateA()
 context.set_state(stateA)
@@ -50,6 +51,19 @@ context.set_state(stateB)
 context.handle_state()
 
 print('-------------------------------------')
+
+a = [1, 2, 3]
+
+for x in a:
+    print(x)
+
+b= [1, 2, 3]
+
+
+def foo(a, b):
+    pass
+
+
 
 
 '''
@@ -67,6 +81,9 @@ print($contents$)
 $END$
 
 '''
+
+
+
 
 
 
